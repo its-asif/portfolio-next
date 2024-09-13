@@ -178,38 +178,55 @@ export function TimelineComponent() {
             <h4 className="text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
               ✅ Completed Web Development Course on Programming Hero
             </h4>
+            <h4 className=" text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
+              ✅ Achieved Leetcode Badge "DCC June 2024" after completing the June LeetCoding Challenge.
+            </h4>
             
           </div>
-          {/* <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4">
+           
+            <div 
+              className="grid grid-cols-1 gap-4"
+            >
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
+              src="https://i.ibb.co.com/4KKR5G2/image.png"
+              alt="Programming Hero certificate"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg h-20 md:h-44 lg:h-60 w-full"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
+              src="https://i.ibb.co.com/prb8M5X/1724941857267.jpg"
+              alt="Kodezen meeting"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg 
+              
+              h-20 md:h-44 lg:h-60 w-full"
             />
+            </div>
+            
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
+              src="https://i.ibb.co.com/94m8jdW/1720977176092.jpg"
+              alt="Leetcode 50 days badge"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg 
+              row-span-2
+              w-full h-[500px]"
             />
-            <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
-              width={500}
+             <Image
+              src="https://i.ibb.co.com/4fxjtjH/1679511098388.jpg"
+              alt="Codeforces pupil ranking"
+              width={800}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="rounded-lg 
+              object-cover
+              object-right
+              col-span-2
+              h-20 md:h-44 lg:h-60 w-full"
             />
-          </div> */}
+          </div>
         </div>
       ),
     },
