@@ -162,8 +162,8 @@ export function TimelineComponent() {
       title: "Programming Achievements",
       content: (
         <div>
-          <h3 className="text-neutral-800 dark:text-neutral-200 text-lg md:text-2xl font-normal mb-4">
-            {/* how to say : noting down my small achievements */}
+         <h3 className="text-neutral-800 dark:text-neutral-200 text-lg md:text-2xl font-normal mb-4">
+            Noting Down My Small Achievements
           </h3>
           <div className="mb-8 flex flex-col gap-2">
             <h4 className=" text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
@@ -188,33 +188,67 @@ export function TimelineComponent() {
             <div 
               className="grid grid-cols-1 gap-4"
             >
-            <Image
-              src="https://i.ibb.co.com/4KKR5G2/image.png"
-              alt="Programming Hero certificate"
-              width={500}
-              height={500}
-              className="rounded-lg h-20 md:h-44 lg:h-60 w-full"
-            />
-            <Image
-              src="https://i.ibb.co.com/prb8M5X/1724941857267.jpg"
-              alt="Kodezen meeting"
-              width={500}
-              height={500}
-              className="rounded-lg 
-              
-              h-20 md:h-44 lg:h-60 w-full"
-            />
+              {/* p.hero */}
+            <div className="relative group md:h-44 lg:h-60 w-full">
+              <Image
+                src="https://i.ibb.co.com/4KKR5G2/image.png"
+                alt="Programming Hero certificate"
+                width={500}
+                height={500}
+                className="rounded-lg h-full w-full"
+              />
+              <Link href="https://www.linkedin.com/posts/4sif_certificate-of-achievement-activity-7143318235034136576-kTQa?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <div className="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-white text-lg font-bold">Programming Hero Certificate</span>
+              </div>
+              </Link>
             </div>
+
+            {/* kodezen team meetings */}
+            <div  className="relative group md:h-44 lg:h-60 w-full">
+              <Image
+                src="https://i.ibb.co.com/prb8M5X/1724941857267.jpg"
+                alt="Kodezen meeting"
+                width={500}
+                height={500}
+                className="rounded-lg 
+                h-20 md:h-44 lg:h-60 w-full"
+              />
+              <Link href="https://www.linkedin.com/posts/kodezenteam_kodezen-monthlymeeting-august24-activity-7234930555383918592-x6vj?utm_source=share&utm_medium=member_desktop"  
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <div className="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-white text-lg font-bold p-10 text-center">Kodezen Team August 2024 Monthly Meeting Highlights</span>
+              </div>
+            </Link>
+            </div>
+          </div>
             
+            {/* Leetcode 50 */}
+            <div className="relative group row-span-2 w-full h-[490px]">
             <Image
               src="https://i.ibb.co.com/94m8jdW/1720977176092.jpg"
               alt="Leetcode 50 days badge"
               width={500}
               height={500}
-              className="rounded-lg 
-              row-span-2
-              w-full h-[500px]"
+              className="rounded-lg row-span-2 w-full h-[490px] object-cover object-center"
             />
+            <Link href="https://www.linkedin.com/posts/4sif_leetcode-dsa-problemsolving-activity-7218301460197859328-D9w6?utm_source=share&utm_medium=member_desktop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <div className="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span className="text-white text-lg font-bold">Leetcode 50 Days Badge</span>
+            </div>
+            </Link>
+          </div>
+
+          {/* CF pupil */}
+          <div className="relative group w-full col-span-2">
              <Image
               src="https://i.ibb.co.com/4fxjtjH/1679511098388.jpg"
               alt="Codeforces pupil ranking"
@@ -223,9 +257,17 @@ export function TimelineComponent() {
               className="rounded-lg 
               object-cover
               object-right
-              col-span-2
-              h-20 md:h-44 lg:h-60 w-full"
+              h-auto w-full"
             />
+            <Link href="https://www.linkedin.com/posts/4sif_competitiveprogramming-codeforces-problemsolving-activity-7044380120840601600-WmNd?utm_source=share&utm_medium=member_desktop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <div className="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span className="text-white text-lg font-bold">Codeforces Pupil Ranking</span>
+            </div>
+            </Link>
+          </div>
           </div>
         </div>
       ),
